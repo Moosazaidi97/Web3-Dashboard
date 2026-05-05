@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #020617, #0f172a);
+  color: white;
+}
+
+/* Container */
+.container {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* Title */
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+button {
+  padding: 12px 25px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #f59e0b;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #d97706;
+  transform: translateY(-2px);
+}
+
+/* Card */
+.card {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  background: #1e293b;
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
+/* Text */
+p {
+  margin: 10px 0;
+  font-size: 0.95rem;
+  word-break: break-all;
+}
+
+/* Token row */
+.token {
+  display: flex;
+  justify-content: space-between;
+  background: #020617;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 8px;
+}
+
+/* Activity */
+.activity {
+  background: #020617;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
