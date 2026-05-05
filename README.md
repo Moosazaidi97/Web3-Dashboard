@@ -1,72 +1,124 @@
-# Getting Started with Create React App
+# 💼 Web3 Wallet Dashboard (React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern Web3 dashboard built with React and Ethers.js that allows users to connect their wallet, view balances, and interact with blockchain data.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+* 🔗 Connect MetaMask wallet
+* 💰 Display ETH balance
+* 🌐 Detect network (Ethereum Mainnet, Testnets)
+* 📋 Copy wallet address
+* 🪙 Token section (UI ready)
+* 📜 Activity section (UI ready)
+* ⚛️ Built with React + Ethers.js
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📸 Preview
 
-### `npm test`
+<p align="center">
+  <img src="assets/dashboard.png" width="600"/>
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠 Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* ⚛️ React
+* 🔗 Ethers.js
+* 🎨 CSS3
+* 🌐 Web3
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📁 Project Structure
 
-### `npm run eject`
+```
+web3-dashboard/
+│── src/
+│   ├── App.js
+│   ├── App.css
+│── public/
+│── assets/
+│   └── dashboard.png
+│── package.json
+│── README.md
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ▶️ Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 1. Clone the repository
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+git clone https://github.com/your-username/web3-dashboard.git
+cd web3-dashboard
+```
 
-## Learn More
+### 2. Install dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 3. Install Ethers.js
 
-### Code Splitting
+```
+npm install ethers@5
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 4. Run the app
 
-### Analyzing the Bundle Size
+```
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🔗 How It Works
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. User clicks **Connect MetaMask**
+2. Wallet connects using `window.ethereum`
+3. App fetches:
 
-### Advanced Configuration
+   * Wallet address
+   * ETH balance
+   * Network info
+4. Data is displayed in dashboard UI
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## ⚠️ Important Notes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* Requires MetaMask browser extension
+* Uses Ethers.js v5
+* This is a frontend-only project (no backend)
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🚧 Future Improvements
+
+* 🪙 Show real ERC20 token balances
+* 🖼 NFT gallery (ERC721 support)
+* 📊 Portfolio value in USD
+* 🌐 Multi-chain support
+* 🔁 Transaction history
+* 🔐 WalletConnect integration
+
+---
+
+## 📜 License
+
+This project is open-source and free to use.
+
+---
+
+## 👨‍💻 Author
+
+Built for learning and building real Web3 applications 🚀
+
 ![output](image.png)
 ![output](image-1.png)
